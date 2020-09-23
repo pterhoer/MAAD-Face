@@ -40,7 +40,7 @@ A positive attribute label refers to 1, a negative attribute label refers to -1,
 
 TODO 
 
-If you use this code, please cite the following papers.
+If you use this work, please cite the following papers as well as the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) database.
 
 
 ```
@@ -89,7 +89,6 @@ If you use this code, please cite the following papers.
 }
 ```
 
-If you make use of MAAD-Face, please additionally cite the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) database since MAAD-Face is build on it.
 
 
 ## Acknowledgment
