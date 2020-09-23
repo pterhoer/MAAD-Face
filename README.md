@@ -6,7 +6,7 @@ Version 1.0 (23.09.2020)
 
 - [Abstract](#abstract)
 - [Database Properties](#properties)
-- [Sample Images](#sample-images)
+- [Annotated Sample Images](#annotated-sample-images)
 - [Download](#download)
 - [Citing](#citing)
 - [Acknowledgment](#acknowledgment)
@@ -19,7 +19,20 @@ Soft-biometrics play an important role in face recognition and related fields si
 
 ## Properties
 
-## Sample Images
+MAAD-Face consists of over 3.3M face images from over 9k different subjects. It provides attribute labels for 47 soft-biometric attributes with a total number of 123.9M attribute annotations. Consequently, it provides 15 and 137 times more attribute labels than CelebA and LFW. Moreover, three human evaluators analysed the correctness of the attribute annotations for CelebA, LFW and MAAD-Face. As shown in the Table below, it does not only provide more attribute annotation but also  annotations of higher quality than the other investigated databases.
+
+<img src="images/Table_databases.png" width="700" >
+
+The results of the human evaluation for each attribute of MAAD-Face is shown below.
+
+<img src="images/Table_MAAD-Face_attribute_evaluation.png" width="700" >
+
+## Annotated Sample Images
+
+Below some sample images are shown including their corresponging 47 attribute annotations.
+A positive attribute label refers to 1, a negative attribute label refers to -1, and a undefined attribute annotation is marked as 0.
+
+<img src="images/samples.png" width="900" >
 
 ## Download
 
@@ -50,8 +63,6 @@ If you use this code, please cite the following papers.
   biburl    = {https://dblp.org/rec/conf/cvpr/TerhorstKDKK20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
-
-
 ```
 
 ```
@@ -76,11 +87,9 @@ If you use this code, please cite the following papers.
   biburl    = {https://dblp.org/rec/conf/btas/TerhorstHKZDKK19.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
-
-
 ```
 
-If you make use of MAAD-Face, please additionally cite the VGGFace2 database ![VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) since MAAD-Face is build on it.
+If you make use of MAAD-Face, please additionally cite the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) database since MAAD-Face is build on it.
 
 
 ## Acknowledgment
@@ -89,3 +98,5 @@ This work was supported by the German Federal Ministry of Education and Research
 
 ## License
 
+This project is licensed under the terms of the Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) license.
+Copyright (c) 2020 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt
