@@ -1,0 +1,3 @@
+The attribute annotations for MAAD-Face are stored in MAAD_Face.csv, as well as in MAAD_Face.pkl. 
+Each column contains the name of the VGG-Face image, the identity number, as well as the 47 attribute annotations.
+A "1" indicates a positive/true label and "-1" indicates a negative/false label. The label "0" refers to an undefined annotation.
