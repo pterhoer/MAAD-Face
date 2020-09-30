@@ -4,7 +4,7 @@ Version 1.0 (23.09.2020)
 
 ## Table of Contents
 
-<img src="images/maad_2.png" width="700" >
+<img src="images/maad_4_2.png" width="200" align="right" >
 
 - [Abstract](#abstract)
 - [Database Properties](#properties)
