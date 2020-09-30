@@ -25,7 +25,7 @@ For more details, please take a look at the [Research Paper](https://arxiv.org/a
 
 ## Properties
 
-MAAD-Face consists of over 3.3M face images from over 9k different subjects. It provides attribute labels for 47 soft-biometric attributes with a total number of 123.9M attribute annotations. Consequently, it provides 15 and 137 times more attribute labels than CelebA and LFW. Moreover, three human evaluators analysed the correctness of the attribute annotations for CelebA, LFW and MAAD-Face. As shown in the Table below, it does not only provide more attribute annotation but also  annotations of higher quality than the other investigated databases.
+MAAD-Face consists of over 3.3M face images from over 9k different subjects. It provides attribute labels for 47 soft-biometric attributes with a total number of 123.9M attribute annotations. Consequently, it provides 15 and 137 times more attribute labels than [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and [LFW](http://vis-www.cs.umass.edu/lfw/). Moreover, three human evaluators analysed the correctness of the attribute annotations for CelebA, LFW and MAAD-Face. As shown in the Table below, it does not only provide more attribute annotation but also  annotations of higher quality than the other investigated databases.
 
 <img src="images/Table_databases.png" width="700" >
 
@@ -44,7 +44,7 @@ A positive attribute label refers to 1, a negative attribute label refers to -1,
 
 [MAAD-Face](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE) provides attribute annotations for the face images of the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) database. 
 - To get the **face images**, please visit their [webside](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/data_infor.html) and download the images.
-- The **attribute annotations** of MAAD-Face are stored under [Releases](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE). 
+- The **attribute annotations** of MAAD-Face are stored under [releases](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE). 
 The annotations can be downloaded either as csv or pickle file.
 - The csv-file ("MAAD-Face.csv") provides the labels for a single image in each row. The first entry of the row specifies the filename of the face image, followed by an identity marker and the 47 attribute annotations. The first row provides information for the different column entries.
 - The pickle-file ("MAAD-Face.pkl") provides the same information and can be loaded as a pandas (python) dataframe.
