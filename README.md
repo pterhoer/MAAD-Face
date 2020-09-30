@@ -1,5 +1,7 @@
 # MAAD-Face: A Massively Annotated Attribute Dataset for Face Images
 
+A publicly available face dataset with 123.9M attribute annotations from 47 soft-biometric attributes.
+
 Version 1.0 (23.09.2020)
 
 ## Table of Contents
@@ -15,9 +17,11 @@ Version 1.0 (23.09.2020)
 
 ## Abstract
 
-<img src="images/maad_4_2.png" width="200" align="right" >
+<img src="images/maad_4_2.png" width="270" align="right" >
 
 Soft-biometrics play an important role in face recognition and related fields since these might lead to biased performances, threatens the user, or are valuable for commercial aspects. Current face database are specifically constructed for the development of face recognition applications. Consequently, these databases contain large amount of diverse face but lack in the number of attribute annotations and the overall annotation correctness. In this work, we propose MAAD-Face, a new face database that is characterized by the large number of its high-quality attribute annotations. MAAD-Face consists of 3.3M faces of over 9k individuals. Using a novel annotation transfer-pipeline that allows an accurate label-transfer from multiple source-datasets to a target-dataset, MAAD-Face consists of 123.9M attribute annotations of 47 different binary attributes. Consequently, it provides 15 and 137 times more attribute labels than CelebA and LFW. Our investigation on the annotation quality by three human evaluators demonstrated the superiority of the MAAD-Face annotations over the other databases. Finally, we make use of the large amount of high-quality annotations from MAAD-Face to study the usefulness of soft-biometrics for recognition, providing insights about which attributes support genuine and imposter decision.
+
+For more details, please take a look at the [Research Paper](https://arxiv.org/abs/2003.09373). TODO - correct link
 
 ## Properties
 
@@ -34,9 +38,25 @@ The results of the human evaluation for each attribute of MAAD-Face is shown bel
 Below some sample images are shown including their corresponging 47 attribute annotations.
 A positive attribute label refers to 1, a negative attribute label refers to -1, and a undefined attribute annotation is marked as 0.
 
-<img src="images/samples.png" width="900" >
+<img src="images/samples.png" width="700" >
 
 ## Download
+
+[MAAD-Face](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE) provides attribute annotations for the face images of the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) database. 
+- To get the **face images**, please visit their [webside](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/data_infor.html) and download the images.
+- The **attribute annotations** of MAAD-Face are stored under [Releases](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE). 
+The annotations can be downloaded either as csv or pickle file.
+- The csv-file ("MAAD-Face.csv") provides the labels for a single image in each row. The first entry of the row specifies the filename of the face image, followed by an identity marker and the 47 attribute annotations. The first row provides information for the different column entries.
+- The pickle-file ("MAAD-Face.pkl") provides the same information and can be loaded as a pandas (python) dataframe.
+```
+import pandas as pd
+# load dataframe
+maad_face = pd.read_pickle("Maad_Face.pkl") 
+# convert dataframe to numpy array if necessary
+maad_face.to_numpy() 
+```
+
+
 
 ## Citing
 
