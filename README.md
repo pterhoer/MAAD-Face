@@ -4,6 +4,8 @@ Version 1.0 (23.09.2020)
 
 ## Table of Contents
 
+<img src="images/maad_2.png" width="700" >
+
 - [Abstract](#abstract)
 - [Database Properties](#properties)
 - [Annotated Sample Images](#annotated-sample-images)
