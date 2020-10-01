@@ -120,4 +120,6 @@ This work was supported by the German Federal Ministry of Education and Research
 ## License
 
 This project is licensed under the terms of the Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) license.
-Copyright (c) 2020 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt
+All images used in this project belongs to the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2). 
+The copyright of the images remains with the original owners.
+The copyright of the annotations remains with the Fraunhofer Institute for Computer Graphics Research IGD Darmstadt 2020.
