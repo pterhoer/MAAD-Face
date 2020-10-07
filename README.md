@@ -49,6 +49,7 @@ A positive attribute label refers to 1, a negative attribute label refers to -1,
 The annotations can be downloaded either as csv or pickle file.
 - The csv-file ("MAAD-Face.csv") provides the labels for a single image in each row. The first entry of the row specifies the filename of the face image, followed by an identity marker and the 47 attribute annotations. The first row provides information for the different column entries.
 - The pickle-file ("MAAD-Face.pkl") provides the same information and can be loaded as a pandas (python) dataframe.
+- The training and test data are concatenated, with the training data coming first and then the test data.
 ```
 import pandas as pd
 # load dataframe
