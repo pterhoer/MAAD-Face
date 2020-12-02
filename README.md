@@ -63,30 +63,22 @@ maad_face.to_numpy()
 
 ## Citing
 
-TODO 
+TODO - needs to be updated
 
 If you use this work, please cite the following papers as well as the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) database.
 
 
 ```
-@inproceedings{DBLP:conf/cvpr/TerhorstKDKK20,
+@article{MAADFace,
   author    = {Philipp Terh{\"{o}}rst and
+               Daniel F\"{a]hrmann and
                Jan Niklas Kolf and
                Naser Damer and
                Florian Kirchbuchner and
                Arjan Kuijper},
-  title     = {{SER-FIQ:} Unsupervised Estimation of Face Image Quality Based on
-               Stochastic Embedding Robustness},
-  booktitle = {2020 {IEEE/CVF} Conference on Computer Vision and Pattern Recognition,
-               {CVPR} 2020, Seattle, WA, USA, June 13-19, 2020},
-  pages     = {5650--5659},
-  publisher = {{IEEE}},
+  title     = {{MAAD-Face}: A Massively Annotated Attribute Dataset for Face Images},
+  journal   = {CoRR},
   year      = {2020},
-  url       = {https://doi.org/10.1109/CVPR42600.2020.00569},
-  doi       = {10.1109/CVPR42600.2020.00569},
-  timestamp = {Tue, 11 Aug 2020 16:59:49 +0200},
-  biburl    = {https://dblp.org/rec/conf/cvpr/TerhorstKDKK20.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
