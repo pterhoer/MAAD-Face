@@ -8,7 +8,7 @@ Version 1.0 (23.09.2020)
 ## Table of Contents
 
 - [Abstract](#abstract)
-- [Database Properties](#properties)
+- [Database Properties](#database-properties)
 - [Annotated Sample Images](#annotated-sample-images)
 - [Download](#download)
 - [Citing](#citing)
@@ -24,7 +24,7 @@ Soft-biometrics play an important role in face recognition and related fields si
 
 For more details, please take a look at the [Research Paper](https://arxiv.org/abs/2012.01030).
 
-## Properties
+## Database Properties
 
 MAAD-Face consists of over 3.3M face images from over 9k different subjects. It provides attribute labels for 47 soft-biometric attributes with a total number of 123.9M attribute annotations. Consequently, it provides 15 and 137 times more attribute labels than [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and [LFW](http://vis-www.cs.umass.edu/lfw/). Moreover, three human evaluators analysed the correctness of the attribute annotations for CelebA, LFW and MAAD-Face. As shown in the Table below, it does not only provide more attribute annotation but also  annotations of higher quality than the other investigated databases.
 
