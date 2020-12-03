@@ -1,6 +1,6 @@
 # MAAD-Face: A Massively Annotated Attribute Dataset for Face Images
 
-<img src="images/maad_4_2.png" width="300" align="right" >
+<img src="images/maad_4_2.png" width="330" align="right" >
 
 A publicly available face dataset with 123.9M attribute annotations from 47 soft-biometric attributes.
 MAAD-Face might help to develop privacy-preserving and bias-mitigating face recognition solutions.
