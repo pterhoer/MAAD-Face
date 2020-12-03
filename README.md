@@ -44,7 +44,7 @@ A positive attribute label refers to 1, a negative attribute label refers to -1,
 ## Download
 
 [MAAD-Face](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE) provides attribute annotations for the face images of the [VGGFace2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2) database. 
-- To get the **face images**, please visit their [webside](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/data_infor.html) and download the images.
+- To get the **face images**, please visit the [VGGFace2 webside](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/data_infor.html) and download the images.
 - The **attribute annotations** of MAAD-Face are stored under [releases](https://github.com/pterhoer/MAAD-Face/releases/tag/MAADFACE). 
 The annotations can be downloaded either as csv or pickle file.
 - The csv-file ("MAAD-Face.csv") provides the labels for a single image in each row. The first entry of the row specifies the filename of the face image, followed by an identity marker and the 47 attribute annotations. The first row provides information for the different column entries.
