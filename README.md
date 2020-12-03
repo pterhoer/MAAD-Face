@@ -3,7 +3,7 @@
 A publicly available face dataset with 123.9M attribute annotations from 47 soft-biometric attributes.
 MAAD-Face might help to develop privacy-preserving and bias-mitigating face recognition solutions.
 
-Version 1.0 (23.09.2020)
+Version 1.0 (03.12.2020)
 
 ## Table of Contents
 
