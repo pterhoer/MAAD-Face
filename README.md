@@ -71,19 +71,25 @@ If you use this work, please cite the following papers as well as the [VGGFace2]
 
 
 ```
-@misc{maadface,
-      title={{MAAD-Face}: A Massively Annotated Attribute Dataset for Face Images}, 
-      author={Philipp Terh\"{o}rst and 
-              Daniel F\"{a}hrmann and 
-              Jan Niklas Kolf and 
-              Naser Damer and 
-              Florian Kirchbuchner and 
-              Arjan Kuijper},
-      year={2020},
-      eprint={2012.01030},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{DBLP:journals/tifs/TerhorstFKDKK21,
+  author    = {Philipp Terh{\"{o}}rst and
+               Daniel F{\"{a}}hrmann and
+               Jan Niklas Kolf and
+               Naser Damer and
+               Florian Kirchbuchner and
+               Arjan Kuijper},
+  title     = {MAAD-Face: {A} Massively Annotated Attribute Dataset for Face Images},
+  journal   = {{IEEE} Trans. Inf. Forensics Secur.},
+  volume    = {16},
+  pages     = {3942--3957},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/TIFS.2021.3096120},
+  doi       = {10.1109/TIFS.2021.3096120},
+  timestamp = {Thu, 16 Sep 2021 18:05:24 +0200},
+  biburl    = {https://dblp.org/rec/journals/tifs/TerhorstFKDKK21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 ```
 
 ```
